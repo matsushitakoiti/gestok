@@ -1,0 +1,12 @@
+package com.estudos.gestok.enums;
+
+public enum TipoItemEnum {
+    ALICATE_UNIVERSAL,
+    ALICATE_DE_BICO,
+    ALICATE_DE_CORTE,
+    ALICATE_DECEPADOR,
+    ALICATE_CLIMPADOR,
+    MULTÍMETRO_DIGITAL,
+    ALICATE_AMPERÍMETRO_PEQUENO,
+    ALICATE_AMPERÍMETRO_GRANDE
+}

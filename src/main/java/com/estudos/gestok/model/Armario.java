@@ -11,7 +11,7 @@ public class Armario {
     private Long id;
 
     @Column(nullable = false)
-    private Ambiente idAmbiente;
+    private Ambiente ambiente;
 
     @Column(nullable = false)
     private String ni;
@@ -32,11 +32,11 @@ public class Armario {
     }
 
     public Ambiente getAmbiente() {
-        return idAmbiente;
+        return ambiente;
     }
 
     public void setAmbiente(Ambiente ambiente) {
-        this.idAmbiente = ambiente;
+        this.ambiente = ambiente;
     }
 
     public String getNi() {
